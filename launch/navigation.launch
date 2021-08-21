@@ -1,0 +1,31 @@
+<launch>
+
+  <param name="/use_sim_time" value="true"/>
+
+  <!-- Run the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find multi_robot)/map/map.yaml" >
+    <param name="frame_id" value="/map" />
+  </node>
+
+  <group ns="robot1">
+    <include file="$(find multi_robot)/launch/move_base.launch" >
+      <arg name="initial_pose_x" value=" 1" />
+      <arg name="initial_pose_y" value=" 1" />
+      <arg name="initial_pose_z" value=" 0" />
+      <arg name="robot_name" value="robot1"/>
+    </include>
+  </group>
+
+  <group ns="robot2">
+    <include file="$(find multi_robot)/launch/move_base.launch" >
+      <arg name="initial_pose_x" value="-1" />
+      <arg name="initial_pose_y" value=" 1" />
+      <arg name="initial_pose_z" value=" 0" />
+      <arg name="robot_name" value="robot2"/>
+    </include>
+  </group>
+
+  <!-- Launching Rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find multi_robot)/rviz/multi_robot_navigation.rviz" />
+
+</launch>
