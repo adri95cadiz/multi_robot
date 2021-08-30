@@ -5,10 +5,6 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Map1
-        - /Map2
-        - /Map3
-        - /Map4
       Splitter Ratio: 0.5
     Tree Height: 438
   - Class: rviz/Selection
@@ -157,6 +153,144 @@ Visualization Manager:
       Unreliable: false
       Use Timestamp: false
       Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /robot1/move_base/NavfnROS/plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /robot1/move_base/TrajectoryPlannerROS/global_plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /robot1/move_base/TrajectoryPlannerROS/local_plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /robot2/move_base/NavfnROS/plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /robot2/move_base/TrajectoryPlannerROS/global_plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.300000012
+      Head Length: 0.200000003
+      Length: 0.300000012
+      Line Style: Lines
+      Line Width: 0.0299999993
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.0299999993
+      Shaft Diameter: 0.100000001
+      Shaft Length: 0.100000001
+      Topic: /robot2/move_base/TrajectoryPlannerROS/local_plan
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -182,16 +316,16 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 61.7948494
+      Distance: 34.8203659
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 7.08751106
-        Y: -2.62587595
-        Z: -12.9242487
+        X: 2.9105823
+        Y: -7.22701502
+        Z: -11.4547157
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
@@ -218,5 +352,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1024
-  X: 76
-  Y: 98
+  X: 171
+  Y: 111

@@ -41,11 +41,6 @@
     <remap from="scan" to="$(arg laser_topic)"/>
     <remap from="base_footprint" to="$(arg base_frame_id)"/>
     <remap from="/move_base_simple/goal"                                           to="/$(arg robot_name)/move_base_simple/goal" />
-    <remap from="/move_base/TebLocalPlannerROS/global_plan"                        to="/$(arg robot_name)/move_base/TebLocalPlannerROS/global_plan" />
-    <remap from="/move_base/TebLocalPlannerROS/local_plan"                         to="/$(arg robot_name)/move_base/TebLocalPlannerROS/local_plan" />
-    <remap from="/move_base/TebLocalPlannerROS/teb_markers"                        to="/$(arg robot_name)/move_base/TebLocalPlannerROS/teb_markers" />
-    <remap from="/move_base/TebLocalPlannerROS/teb_markers_array"                  to="/$(arg robot_name)/move_base/TebLocalPlannerROS/teb_markers_array" />
-    <remap from="/move_base/TebLocalPlannerROS/teb_poses"                          to="/$(arg robot_name)/move_base/TebLocalPlannerROS/teb_poses" />
     <remap from="/move_base/global_costmap/costmap"                                to="/$(arg robot_name)/move_base/global_costmap/costmap" />
     <remap from="/move_base/global_costmap/costmap_updates"                        to="/$(arg robot_name)/move_base/global_costmap/costmap_updates" />
     <remap from="/move_base/local_costmap/costmap"                                 to="/$(arg robot_name)/move_base/local_costmap/costmap" />
@@ -56,9 +51,6 @@
     <remap from="/move_base/GlobalPlanner/parameter_updates"                       to="/$(arg robot_name)/move_base/GlobalPlanner/parameter_updates" />
     <remap from="/move_base/GlobalPlanner/plan"                                    to="/$(arg robot_name)/move_base/GlobalPlanner/plan" />
     <remap from="/move_base/GlobalPlanner/potential"                               to="/$(arg robot_name)/move_base/GlobalPlanner/potential" />
-    <remap from="/move_base/TebLocalPlannerROS/obstacles"                          to="/$(arg robot_name)/move_base/TebLocalPlannerROS/obstacles" />
-    <remap from="/move_base/TebLocalPlannerROS/parameter_descriptions"             to="/$(arg robot_name)/move_base/TebLocalPlannerROS/parameter_descriptions" />
-    <remap from="/move_base/TebLocalPlannerROS/parameter_updates"                  to="/$(arg robot_name)/move_base/TebLocalPlannerROS/parameter_updates" />
     <remap from="/move_base/cancel"                                                to="/$(arg robot_name)/move_base/cancel" />
     <remap from="/move_base/current_goal"                                          to="/$(arg robot_name)/move_base/current_goal" />
     <remap from="/move_base/feedback"                                              to="/$(arg robot_name)/move_base/feedback" />
