@@ -51,9 +51,9 @@
     <param name="initial_pose_y"            value="$(arg initial_pose_y)"/>
     <param name="initial_pose_z"            value="$(arg initial_pose_z)"/>
     <remap from="scan"                      to="$(arg scan_topic)"/>
-    <remap from="initialpose"               to="$(arg robot_name)/initialpose"/>
-    <remap from="amcl_pose"                 to="$(arg robot_name)/amcl_pose"/>
-    <remap from="particlecloud"             to="$(arg robot_name)/particlecloud"/>
+    <remap from="initialpose"               to="/$(arg robot_name)/initialpose"/>
+    <remap from="amcl_pose"                 to="/$(arg robot_name)/amcl_pose"/>
+    <remap from="particlecloud"             to="/$(arg robot_name)/particlecloud"/>
 
   </node>
 
