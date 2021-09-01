@@ -1,4 +1,6 @@
-**multi_robot**
+# multi_robot
+
+## Installation
 
 **Depends on the Turtlebot3 package, you can install following this tutorial:**
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#install-dependent-ros-packages
@@ -7,6 +9,8 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#install-dep
 ```
 $ catkin_make
 ```
+
+## Usage
 
 **Launch multiple robots**
 ```
