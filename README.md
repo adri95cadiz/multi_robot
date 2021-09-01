@@ -3,6 +3,11 @@
 **Depends on the Turtlebot3 package, you can install following this tutorial:**
 https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#install-dependent-ros-packages
 
+**Clone on your catkin_ws/src directory and execute:**
+```
+$ catkin_make
+```
+
 **Launch multiple robots**
 ```
 $ roslaunch multi_robot main.launch
