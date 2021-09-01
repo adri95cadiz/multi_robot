@@ -1,5 +1,8 @@
 **multi_robot**
 
+**Depends on the Turtlebot3 package, you can install following this tutorial:**
+https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#install-dependent-ros-packages
+
 **Launch multiple robots**
 ```
 $ roslaunch multi_robot main.launch
