@@ -1,5 +1,7 @@
 # multi_robot
 
+ROS package for multiple robot mapping and navigation in ROS. Using Turtlebot3 Burger robots, SLAM Gmapping and the navigation stack.
+
 ## Installation
 
 **Depends on the Turtlebot3 package, you can install following this tutorial:**
