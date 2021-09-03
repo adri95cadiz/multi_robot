@@ -25,7 +25,36 @@
     </include>
   </group>
 
+  <!--
+  <group ns="robot3">
+    <include file="$(find multi_robot)/launch/move_base.launch" >
+      <arg name="initial_pose_x" value="-0.5" />
+      <arg name="initial_pose_y" value="-0.5" />
+      <arg name="initial_pose_z" value=" 0" />
+      <arg name="robot_name" value="robot3"/>
+    </include>
+  </group>
+
+  <group ns="robot4">
+    <include file="$(find multi_robot)/launch/move_base.launch" >
+      <arg name="initial_pose_x" value=" 0.5" />
+      <arg name="initial_pose_y" value="-0.5" />
+      <arg name="initial_pose_z" value=" 0" />
+      <arg name="robot_name" value="robot4"/>
+    </include>
+  </group>
+
+  <group ns="robot5">
+    <include file="$(find multi_robot)/launch/move_base.launch" >
+      <arg name="initial_pose_x" value=" 0.5" />
+      <arg name="initial_pose_y" value=" 0.0" />
+      <arg name="initial_pose_z" value=" 0" />
+      <arg name="robot_name" value="robot5"/>
+    </include>
+  </group>
+  -->
+
   <!-- Launching Rviz -->
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find multi_robot)/rviz/multi_robot_navigation.rviz" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find multi_robot)/rviz/multi_robot_navigation.rviz" /> <!-- {1/multi/3/4/5}_robot_navigation.rviz -->
 
 </launch>
