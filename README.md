@@ -51,11 +51,6 @@ $ roslaunch multi_robot navigation.launch
 $ rosrun rviz rviz -d `rospack find multi_robot`/rviz/multi_robot_navigation.rviz
 ```
 
-**Launch multi_map_merge again to update map**
-```
-$ roslaunch multi_robot multi_map_merge.launch
-```
-
 **Save map**
 ```
 $ rosrun map_server map_saver -f ~/map
