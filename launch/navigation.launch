@@ -9,9 +9,9 @@
 
   <group ns="robot1">
     <include file="$(find multi_robot)/launch/move_base.launch" >
-      <arg name="initial_pose_x" value=" 1" />
-      <arg name="initial_pose_y" value=" 1" />
-      <arg name="initial_pose_z" value=" 0" />
+      <arg name="initial_pose_x" value="  1" />
+      <arg name="initial_pose_y" value="1.5" />
+      <arg name="initial_pose_z" value="  0" />
       <arg name="robot_name" value="robot1"/>
     </include>
   </group>
